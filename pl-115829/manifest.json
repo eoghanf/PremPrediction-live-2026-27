@@ -1,31 +1,5 @@
 {
-  "committed_at": "2026-08-24T11:19:13Z",
   "fixture_id": "pl-115829",
-  "fixtures": [
-    {
-      "away_team_id": "BHA",
-      "competition": "PL",
-      "fixture_id": "pl-115829",
-      "home_team_id": "EVE",
-      "kickoff_utc": "2024-08-17T14:00:00Z",
-      "matchday": 1,
-      "season": "2024-25",
-      "venue": "Goodison Park"
-    }
-  ],
-  "manifests": [
-    {
-      "beacon_round": 1915883,
-      "beacon_value": "57388903FBC005FC4DB362ABD3799A0B812C54FAAA6527DA498190F4D00305906537C5D516C6737234B0C736165CF40FA2B52BE83CCA16F5350FFE0C929CD108",
-      "doc_refs_json": "[{\"doc_hash\": \"34e045be5e75904121f97a1ec02568fc8f2ea506b122b977ac4661a09eb03451\", \"team_id\": \"EVE\"}, {\"doc_hash\": \"7b55c28d3f6fec51a2701c08b1f9c38124b27f64c3b53f1a831696c6190b4f5e\", \"team_id\": \"BHA\"}, {\"doc_hash\": \"3b1078d9bc974af2e0132d7e0b693052ffba66a1ba5bd31264d2de45c355a762\", \"team_id\": \"AVL\"}, {\"doc_hash\": \"7df2781d8da43cc1d38cf5e190cb78544b629038cb50af50f346b00af23e4a9e\", \"team_id\": \"BRE\"}, {\"doc_hash\": \"fba68205a6c25741a48d1c31d5d1f4514ada766931ca6de95c8fd3e752c3d255\", \"team_id\": \"BUR\"}, {\"doc_hash\": \"5c0f3bdebe699ce37897f9c0a282bb94d3561936ad1159a84ef988141c2ed041\", \"team_id\": \"CHE\"}, {\"doc_hash\": \"b15f19ec8583be925f32fdff6291c505ac5c6e3bda2990e32b22ebb7f49490cb\", \"team_id\": \"CRY\"}, {\"doc_hash\": \"4d8f1dc6671e0ec3f0a912335a438b2692f0a77920f9ba62fdc2577a005678df\", \"team_id\": \"LEE\"}, {\"doc_hash\": \"4c363ae938623d4aaa292d50476a151237c5073d1b1afe49bac9e4c89c2afe56\", \"team_id\": \"LIV\"}, {\"doc_hash\": \"98403de6155c991733ade04312d6427d699ddd644e0a06ed33eb576a377b545b\", \"team_id\": \"MCI\"}, {\"doc_hash\": \"f3bcd3d19d4df15d8643adc54a1842fc735b0b82fd15cc84487bf381bbde2d31\", \"team_id\": \"MUN\"}, {\"doc_hash\": \"4e4e000c21bd9fbde9f5878a8ecc11bbb137d171e54798c9c2b330436e5b607a\", \"team_id\": \"NEW\"}, {\"doc_hash\": \"e19e5373d0334abec7a8830c6409af48ab0fe15fe7636840c16cd9fe3bdb6d6a\", \"team_id\": \"SUN\"}, {\"doc_hash\": \"308a8efaba783a9eec9c09ecb9847f15ff6ef734329911120ee1cb44281b222a\", \"team_id\": \"TOT\"}, {\"doc_hash\": \"5b01bdf529b8a193bdca9727e686205538d6df9ca2b9a8195969732192f8f517\", \"team_id\": \"WHU\"}, {\"doc_hash\": \"a8ce7d5f63f94712ab087c562cad12687c7fac07554b6dfacf1f337078a244b4\", \"team_id\": \"WOL\"}]",
-      "fixture_id": "pl-115829",
-      "freeze_time": "2026-08-24T11:18:50Z",
-      "league_doc_hash": "3f856296883b8b1ce6aff645e8eb85d858bc2efffe5fe04aeab19e2c541604a7",
-      "manifest_hash": "5a6753edd868a50868869bb65deba405a9fa72ea26c4579af2dc7a4787a72a63",
-      "storage_ref": "5a6753edd868a50868869bb65deba405a9fa72ea26c4579af2dc7a4787a72a63"
-    }
-  ],
-  "matchday_key": "PL:2024-25:1",
   "merkle_leaves": [
     {
       "leaf_index": 0,
@@ -79,10 +53,11 @@
     }
   ],
   "merkle_root": "0243fe3860640b60d0160177801ffdfda267e76cf9d8bc23cda7df88ef01a3a3",
-  "mode": "live",
+  "phase": "reveal",
   "predictions": [
     {
       "created_at": "2026-08-24T11:18:52Z",
+      "dispersion_json": "{\"method\": \"uniform\"}",
       "fixture_id": "pl-115829",
       "id": 131,
       "k_requested": 1,
@@ -99,6 +74,7 @@
     },
     {
       "created_at": "2026-08-24T11:18:52Z",
+      "dispersion_json": "{\"method\": \"home_advantage_prior\"}",
       "fixture_id": "pl-115829",
       "id": 132,
       "k_requested": 1,
@@ -115,6 +91,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:07Z",
+      "dispersion_json": "{\"freeze\": \"2024-08-16T14:00:00Z\", \"home_advantage_elo\": 65.0, \"method\": \"clubelo\", \"ratings\": {}}",
       "fixture_id": "pl-115829",
       "id": 133,
       "k_requested": 1,
@@ -131,6 +108,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:07Z",
+      "dispersion_json": "{\"data_cutoff\": \"2024-08-16T14:00:00Z\", \"fit_ref\": \"23a633ae6fabfb10368d8c2be49e036c63b6fa10b8faaeab13b7c0fade9244a7\", \"half_life_days\": 365.0, \"method\": \"dixonceoles\", \"model_version\": \"dc-v1\", \"n_matches\": 0, \"rho\": 0.0}",
       "fixture_id": "pl-115829",
       "id": 134,
       "k_requested": 1,
@@ -147,6 +125,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 135,
       "k_requested": 3,
@@ -163,6 +142,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 140,
       "k_requested": 3,
@@ -179,6 +159,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 136,
       "k_requested": 3,
@@ -195,6 +176,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 137,
       "k_requested": 3,
@@ -211,6 +193,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 138,
       "k_requested": 3,
@@ -227,6 +210,7 @@
     },
     {
       "created_at": "2026-08-24T11:19:10Z",
+      "dispersion_json": "{}",
       "fixture_id": "pl-115829",
       "id": 139,
       "k_requested": 3,
@@ -242,12 +226,5 @@
       "status": "missing"
     }
   ],
-  "run_id": "live-2026-27",
-  "scheme": {
-    "internal": "sha256(left_hex || right_hex) ascii bytes -> hex",
-    "leaf": "prediction_hash (sha256_hex of canonical prediction)",
-    "padding": "duplicate-last-when-odd-and-more-than-one",
-    "path_side": "R=sibling-right (parent=H(this||sib)); L=sibling-left"
-  },
-  "season": "2026-27"
+  "run_id": "live-2026-27"
 }
