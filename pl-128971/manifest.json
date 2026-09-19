@@ -1,0 +1,253 @@
+{
+  "committed_at": "2026-09-19T04:30:10Z",
+  "fixture_id": "pl-128971",
+  "fixtures": [
+    {
+      "away_team_id": "COV",
+      "competition": "PL",
+      "fixture_id": "pl-128971",
+      "home_team_id": "NFO",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "matchday": 5,
+      "season": "2026-27",
+      "venue": "The City Ground"
+    }
+  ],
+  "manifests": [
+    {
+      "beacon_round": 1947029,
+      "beacon_value": "E3715B7B0050B68E33F8C6A088DD90B79E76457E0FF8762AB4CE61D5767E4B3D8F588C68C816EECE763235D07ADE61F7297A43136803B605F8FD8ED62BABF948",
+      "doc_refs_json": "[{\"doc_hash\": \"a9379bb5b01d1f416e67f9f7060fe4393c1fc415c28333185d91d6359188d376\", \"team_id\": \"NFO\"}, {\"doc_hash\": \"d29ada79cf9961990d1b32818da661a1d94471edc20ed5d9f1127854bd5e37a5\", \"team_id\": \"COV\"}, {\"doc_hash\": \"1cd455fea20bc7a6d85f697fe93ca7f9576ddd60256c191cf499b457c5e8518e\", \"team_id\": \"ARS\"}, {\"doc_hash\": \"2242c3804678df77c3d6eeb028be161b824d66b9c08cdbcfaadc55cfb5590271\", \"team_id\": \"AVL\"}, {\"doc_hash\": \"62850fcedf64c9333f9f44732fd765916d08b87bd38fe8da4f45b35a0aee5883\", \"team_id\": \"BHA\"}, {\"doc_hash\": \"781d3b130bc1639cfe302b86633f884d1d24a72ce3269b2ddf60a69bd202b003\", \"team_id\": \"BOU\"}, {\"doc_hash\": \"c50028f127d40c43ed9c4fd259bf46d0d9895d82a0626bcd6423c904968c1bbb\", \"team_id\": \"CHE\"}, {\"doc_hash\": \"f2aa841a4fcc6bdb455f619b1a327c0fd82db30954f886b55dd7f8617e008a7f\", \"team_id\": \"HUL\"}, {\"doc_hash\": \"ad3fb892a378757feff6ed4484a9d98773fc850abfb428b3e1fc73e05e215e3d\", \"team_id\": \"LEE\"}, {\"doc_hash\": \"1ee7f2b180d12a35999b4e376d818b1c9ec9c0d05f4b9cd0f4aaff7486ad0e53\", \"team_id\": \"LIV\"}, {\"doc_hash\": \"1035ff3aaca5827557fbe940a428c3807b4f74f19d35949a626365f06be49afe\", \"team_id\": \"MCI\"}, {\"doc_hash\": \"ccd20f2679de4ad0b9824cde0b6248e12be9d5885c5ff61c51b0d48d4285de5c\", \"team_id\": \"MUN\"}, {\"doc_hash\": \"76b5824fbbe575d2c9e9342c11b24fff90e2f43d71fb400f7d6cb9ad9d9f13f6\", \"team_id\": \"NEW\"}, {\"doc_hash\": \"b392af9094166fdbe30287542178b44d839550943c0b7faba993bf53aaa9c984\", \"team_id\": \"TOT\"}]",
+      "fixture_id": "pl-128971",
+      "freeze_time": "2026-09-18T16:36:06Z",
+      "league_doc_hash": "af769c0dee8ae70dee97573465df6e442ff40b37197d5ef97fe7c6c27384015d",
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "storage_ref": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067"
+    }
+  ],
+  "matchday_key": "PL:2026-27:5",
+  "merkle_leaves": [
+    {
+      "leaf_index": 0,
+      "path_json": "[{\"sibling\": \"645fda5c47bfbe662ab08aafe62c025cfb6c223ab8329035367746679835fffc\", \"side\": \"R\"}, {\"sibling\": \"72e02bbb6988e4dcbb5b0585484650a0638ef957f73694da4d3083c4e87eeffb\", \"side\": \"R\"}, {\"sibling\": \"03bc865941aa801816a6834c9e183bc9a7e44fafcac9555e79861f7ca5494d9a\", \"side\": \"R\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "3a29447c6a5338919431faf409759129a54dc2e3fbb0078e952175a41568be0a"
+    },
+    {
+      "leaf_index": 1,
+      "path_json": "[{\"sibling\": \"3a29447c6a5338919431faf409759129a54dc2e3fbb0078e952175a41568be0a\", \"side\": \"L\"}, {\"sibling\": \"72e02bbb6988e4dcbb5b0585484650a0638ef957f73694da4d3083c4e87eeffb\", \"side\": \"R\"}, {\"sibling\": \"03bc865941aa801816a6834c9e183bc9a7e44fafcac9555e79861f7ca5494d9a\", \"side\": \"R\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "645fda5c47bfbe662ab08aafe62c025cfb6c223ab8329035367746679835fffc"
+    },
+    {
+      "leaf_index": 2,
+      "path_json": "[{\"sibling\": \"1c4893d982cae6732ec349fc4f9397b0d1da46a7ee39dde6dc7c75fd9a29aa30\", \"side\": \"R\"}, {\"sibling\": \"1d8e453e2584922ea278c02f37c625809ef371616a015edf6c3649000f54daad\", \"side\": \"L\"}, {\"sibling\": \"03bc865941aa801816a6834c9e183bc9a7e44fafcac9555e79861f7ca5494d9a\", \"side\": \"R\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "4a47b1390fda2a75a23d08c3a665b9bf2a512a2f2ec74d14051c4de9245bd8d9"
+    },
+    {
+      "leaf_index": 3,
+      "path_json": "[{\"sibling\": \"4a47b1390fda2a75a23d08c3a665b9bf2a512a2f2ec74d14051c4de9245bd8d9\", \"side\": \"L\"}, {\"sibling\": \"1d8e453e2584922ea278c02f37c625809ef371616a015edf6c3649000f54daad\", \"side\": \"L\"}, {\"sibling\": \"03bc865941aa801816a6834c9e183bc9a7e44fafcac9555e79861f7ca5494d9a\", \"side\": \"R\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "1c4893d982cae6732ec349fc4f9397b0d1da46a7ee39dde6dc7c75fd9a29aa30"
+    },
+    {
+      "leaf_index": 4,
+      "path_json": "[{\"sibling\": \"b84aa33bd97066378ab0d823d1f812180c7e884530dd82857fd169cc1fe6ee1d\", \"side\": \"R\"}, {\"sibling\": \"8befc022be136f58d4467d28e8c4d6df34eb89bffef6dc71d3312724e91078e8\", \"side\": \"R\"}, {\"sibling\": \"853fbc4e2dadd58bf53232d5d583cbb87b616ecfe7c93c2c9452d7933ec5ad2b\", \"side\": \"L\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "9ffec17fe3cc39af8cd93349f88e2eec9298184dbce10d0e39c46e2b7cdebc7d"
+    },
+    {
+      "leaf_index": 5,
+      "path_json": "[{\"sibling\": \"9ffec17fe3cc39af8cd93349f88e2eec9298184dbce10d0e39c46e2b7cdebc7d\", \"side\": \"L\"}, {\"sibling\": \"8befc022be136f58d4467d28e8c4d6df34eb89bffef6dc71d3312724e91078e8\", \"side\": \"R\"}, {\"sibling\": \"853fbc4e2dadd58bf53232d5d583cbb87b616ecfe7c93c2c9452d7933ec5ad2b\", \"side\": \"L\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "b84aa33bd97066378ab0d823d1f812180c7e884530dd82857fd169cc1fe6ee1d"
+    },
+    {
+      "leaf_index": 6,
+      "path_json": "[{\"sibling\": \"237dc99976130b8df167dff65646d3f8ee7333a53f35b90acf1155322c8c4dd0\", \"side\": \"R\"}, {\"sibling\": \"f03abef99de9da984cabba60d9c53d56aab863e91c8b364b323e353518aaa519\", \"side\": \"L\"}, {\"sibling\": \"853fbc4e2dadd58bf53232d5d583cbb87b616ecfe7c93c2c9452d7933ec5ad2b\", \"side\": \"L\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "7a86cae410ab175babcd60d7cd59226b39c46b3f0244cd067d9d78cd3dadee88"
+    },
+    {
+      "leaf_index": 7,
+      "path_json": "[{\"sibling\": \"7a86cae410ab175babcd60d7cd59226b39c46b3f0244cd067d9d78cd3dadee88\", \"side\": \"L\"}, {\"sibling\": \"f03abef99de9da984cabba60d9c53d56aab863e91c8b364b323e353518aaa519\", \"side\": \"L\"}, {\"sibling\": \"853fbc4e2dadd58bf53232d5d583cbb87b616ecfe7c93c2c9452d7933ec5ad2b\", \"side\": \"L\"}, {\"sibling\": \"653f7e22593456e8ed823eba46a41d03d61359a1943aad2fa8ce6a9ab2f3dac6\", \"side\": \"R\"}]",
+      "prediction_hash": "237dc99976130b8df167dff65646d3f8ee7333a53f35b90acf1155322c8c4dd0"
+    },
+    {
+      "leaf_index": 8,
+      "path_json": "[{\"sibling\": \"099673bfa9d37b43545aad6638556c929a46fa4c153412559bf755698031a5ab\", \"side\": \"R\"}, {\"sibling\": \"3b897f84d98cc91c91182d1a799b297717e89b8e83a86eb40bbd9bc3e9505032\", \"side\": \"R\"}, {\"sibling\": \"fc4f120cb2b5541434eddd11f144ec96523aac62f7fdec4d1d5c60321b378654\", \"side\": \"R\"}, {\"sibling\": \"c0f39d18cb314c4a8c25019c93f17c8516a3d72e83a1b974ad55d0733f8f7ce8\", \"side\": \"L\"}]",
+      "prediction_hash": "87766511b1bd372bb1101a92dd9c0be9da3c05bdc05980a3120469bf274eb21b"
+    },
+    {
+      "leaf_index": 9,
+      "path_json": "[{\"sibling\": \"87766511b1bd372bb1101a92dd9c0be9da3c05bdc05980a3120469bf274eb21b\", \"side\": \"L\"}, {\"sibling\": \"3b897f84d98cc91c91182d1a799b297717e89b8e83a86eb40bbd9bc3e9505032\", \"side\": \"R\"}, {\"sibling\": \"fc4f120cb2b5541434eddd11f144ec96523aac62f7fdec4d1d5c60321b378654\", \"side\": \"R\"}, {\"sibling\": \"c0f39d18cb314c4a8c25019c93f17c8516a3d72e83a1b974ad55d0733f8f7ce8\", \"side\": \"L\"}]",
+      "prediction_hash": "099673bfa9d37b43545aad6638556c929a46fa4c153412559bf755698031a5ab"
+    }
+  ],
+  "merkle_root": "e4c889b3600d1a676b3e1ceda8afe356f3d02cb3197e69caf1a4e9f8f93f434c",
+  "mode": "live",
+  "predictions": [
+    {
+      "created_at": "2026-09-18T16:36:08Z",
+      "fixture_id": "pl-128971",
+      "id": 511,
+      "k_requested": 1,
+      "lambda_away": null,
+      "lambda_home": null,
+      "manifest_hash": null,
+      "model_id": "baseline/b1-uniform",
+      "n_valid_samples": 1,
+      "p_away": 0.3333333333333333,
+      "p_draw": 0.3333333333333333,
+      "p_home": 0.3333333333333333,
+      "prediction_hash": "3a29447c6a5338919431faf409759129a54dc2e3fbb0078e952175a41568be0a",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:36:08Z",
+      "fixture_id": "pl-128971",
+      "id": 512,
+      "k_requested": 1,
+      "lambda_away": null,
+      "lambda_home": null,
+      "manifest_hash": null,
+      "model_id": "baseline/b2-home",
+      "n_valid_samples": 1,
+      "p_away": 0.32375,
+      "p_draw": 0.26375,
+      "p_home": 0.4125,
+      "prediction_hash": "645fda5c47bfbe662ab08aafe62c025cfb6c223ab8329035367746679835fffc",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:36:23Z",
+      "fixture_id": "pl-128971",
+      "id": 513,
+      "k_requested": 1,
+      "lambda_away": 0.751648188982053,
+      "lambda_home": 0.9056075308874149,
+      "manifest_hash": null,
+      "model_id": "baseline/b3-clubelo",
+      "n_valid_samples": 1,
+      "p_away": 0.31,
+      "p_draw": 0.24,
+      "p_home": 0.45,
+      "prediction_hash": "4a47b1390fda2a75a23d08c3a665b9bf2a512a2f2ec74d14051c4de9245bd8d9",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:36:38Z",
+      "fixture_id": "pl-128971",
+      "id": 514,
+      "k_requested": 1,
+      "lambda_away": 0.3424543086023286,
+      "lambda_home": 2.1760625152413997,
+      "manifest_hash": null,
+      "model_id": "baseline/b4-dixonceoles",
+      "n_valid_samples": 1,
+      "p_away": 0.03856490237074395,
+      "p_draw": 0.1675630440867211,
+      "p_home": 0.7938720535425349,
+      "prediction_hash": "1c4893d982cae6732ec349fc4f9397b0d1da46a7ee39dde6dc7c75fd9a29aa30",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:45:21Z",
+      "fixture_id": "pl-128971",
+      "id": 520,
+      "k_requested": 3,
+      "lambda_away": 0.4333333333333333,
+      "lambda_home": 1.8833333333333335,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/deepseek/deepseek-v4-flash",
+      "n_valid_samples": 3,
+      "p_away": 0.07566666666666669,
+      "p_draw": 0.197,
+      "p_home": 0.7273333333333334,
+      "prediction_hash": "9ffec17fe3cc39af8cd93349f88e2eec9298184dbce10d0e39c46e2b7cdebc7d",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:39:44Z",
+      "fixture_id": "pl-128971",
+      "id": 518,
+      "k_requested": 3,
+      "lambda_away": 0.6833333333333332,
+      "lambda_home": 1.8833333333333335,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/moonshotai/kimi-k3",
+      "n_valid_samples": 3,
+      "p_away": 0.12666666666666668,
+      "p_draw": 0.21333333333333335,
+      "p_home": 0.66,
+      "prediction_hash": "b84aa33bd97066378ab0d823d1f812180c7e884530dd82857fd169cc1fe6ee1d",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:37:28Z",
+      "fixture_id": "pl-128971",
+      "id": 517,
+      "k_requested": 3,
+      "lambda_away": 0.4066666666666667,
+      "lambda_home": 1.75,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/openai/gpt-5.6-luna",
+      "n_valid_samples": 3,
+      "p_away": 0.07766666666666669,
+      "p_draw": 0.21500000000000002,
+      "p_home": 0.7073333333333334,
+      "prediction_hash": "7a86cae410ab175babcd60d7cd59226b39c46b3f0244cd067d9d78cd3dadee88",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:37:23Z",
+      "fixture_id": "pl-128971",
+      "id": 516,
+      "k_requested": 3,
+      "lambda_away": 0.4566666666666667,
+      "lambda_home": 1.8,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/openai/gpt-5.6-terra",
+      "n_valid_samples": 3,
+      "p_away": 0.08766666666666667,
+      "p_draw": 0.21033333333333334,
+      "p_home": 0.7020000000000001,
+      "prediction_hash": "237dc99976130b8df167dff65646d3f8ee7333a53f35b90acf1155322c8c4dd0",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:37:18Z",
+      "fixture_id": "pl-128971",
+      "id": 515,
+      "k_requested": 3,
+      "lambda_away": 0.6233333333333334,
+      "lambda_home": 1.9766666666666666,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/x-ai/grok-4.5",
+      "n_valid_samples": 3,
+      "p_away": 0.12666666666666668,
+      "p_draw": 0.22,
+      "p_home": 0.6533333333333333,
+      "prediction_hash": "87766511b1bd372bb1101a92dd9c0be9da3c05bdc05980a3120469bf274eb21b",
+      "status": "ok"
+    },
+    {
+      "created_at": "2026-09-18T16:41:05Z",
+      "fixture_id": "pl-128971",
+      "id": 519,
+      "k_requested": 3,
+      "lambda_away": 0.5666666666666667,
+      "lambda_home": 2.066666666666667,
+      "manifest_hash": "84ae3971e07f975705443af319dba1bb11c28649b04ef157292dca6883f90067",
+      "model_id": "openrouter/z-ai/glm-5.2",
+      "n_valid_samples": 3,
+      "p_away": 0.08863536463536464,
+      "p_draw": 0.1866057276057276,
+      "p_home": 0.7247589077589077,
+      "prediction_hash": "099673bfa9d37b43545aad6638556c929a46fa4c153412559bf755698031a5ab",
+      "status": "ok"
+    }
+  ],
+  "run_id": "live-2026-27",
+  "scheme": {
+    "internal": "sha256(left_hex || right_hex) ascii bytes -> hex",
+    "leaf": "prediction_hash (sha256_hex of canonical prediction)",
+    "padding": "duplicate-last-when-odd-and-more-than-one",
+    "path_side": "R=sibling-right (parent=H(this||sib)); L=sibling-left"
+  },
+  "season": "2026-27"
+}
