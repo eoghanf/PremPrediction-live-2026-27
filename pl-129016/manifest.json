@@ -1,31 +1,5 @@
 {
-  "committed_at": "2026-11-06T08:00:52Z",
   "fixture_id": "pl-129016",
-  "fixtures": [
-    {
-      "away_team_id": "COV",
-      "competition": "PL",
-      "fixture_id": "pl-129016",
-      "home_team_id": "EVE",
-      "kickoff_utc": "2026-11-06T20:00:00Z",
-      "matchday": 10,
-      "season": "2026-27",
-      "venue": "Hill Dickinson Stadium"
-    }
-  ],
-  "manifests": [
-    {
-      "beacon_round": 2014899,
-      "beacon_value": "592351778EB6D187F18FD7EBE3C774EA1F7FDB01B8B75A38994F42D94128631608FDA130BFA851B4487422EDC9B63F47CC61049AC97E4C9C7493650454FE918B",
-      "doc_refs_json": "[{\"doc_hash\": \"ccf362369c9a3cb8c74907ebb14131d4af76be9dbb0832b87ad36aec947fd5cd\", \"team_id\": \"EVE\"}, {\"doc_hash\": \"8d34905241e514017e7033e7ceac20ce4be9ce1a5632f2c842d796afc976d025\", \"team_id\": \"COV\"}, {\"doc_hash\": \"12c187e4cb65a26f37d71876944420d9687260910348dc9a45de8ad379c58128\", \"team_id\": \"ARS\"}, {\"doc_hash\": \"d7c4c2e8ff91f8becb5496215bc31bfeab65746ae19381da5a6bd15235175f18\", \"team_id\": \"BHA\"}, {\"doc_hash\": \"13c8bf1e87c0b96e58979204d8f88d4a45649137107d9af909e64e4730b41cf0\", \"team_id\": \"BOU\"}, {\"doc_hash\": \"5e2f264567589241a1daee4214b0113c31eb8f266d44449c596572120f9aff8e\", \"team_id\": \"CHE\"}, {\"doc_hash\": \"ef7e92f538c5394f8ac435534fb541a09247743dae966c1f2b9f51c3f17500db\", \"team_id\": \"FUL\"}, {\"doc_hash\": \"2acc0adc74d04925fa9277b7cd69a4720652e56a881958f04d3bea44ee4edd28\", \"team_id\": \"HUL\"}, {\"doc_hash\": \"eb22a68392fef804400c02b3138dda2051e0567246212876f03e2aa8a7740214\", \"team_id\": \"IPS\"}, {\"doc_hash\": \"019f5f501cf4b6182df53a9f791f32454b11d98ba6aa04251ff23cff713c6955\", \"team_id\": \"MCI\"}, {\"doc_hash\": \"01c9dca70fdda911519797d8a65636d43049d642e16c81a793d10b3687e68b8c\", \"team_id\": \"MUN\"}, {\"doc_hash\": \"903fba972014c33c773b27a83f5441403ea24f9ce31aa27664f5c44b36b0f3b5\", \"team_id\": \"NEW\"}, {\"doc_hash\": \"d5f4e6b712da212b3f4f59966d57c6b458da8f4261d3f81ce3f2dc44adc3c987\", \"team_id\": \"NFO\"}, {\"doc_hash\": \"c7af70d7cbade35a7fb4ceefd36549e4acb9948d631fe78fae425170ac6c0dca\", \"team_id\": \"SUN\"}, {\"doc_hash\": \"e44da4cfeb6957fd1acf6746905beda9d79e0851eb374a79329ebb692a4425d0\", \"team_id\": \"TOT\"}]",
-      "fixture_id": "pl-129016",
-      "freeze_time": "2026-11-05T20:02:13Z",
-      "league_doc_hash": "042dca1c63956d989ce38b197296009e30a775b451664442a0ce835ef98a522a",
-      "manifest_hash": "32ef12c8e24510d254619c52ee68a1a99e30e2f1efe813479e271c83c7581f5b",
-      "storage_ref": "32ef12c8e24510d254619c52ee68a1a99e30e2f1efe813479e271c83c7581f5b"
-    }
-  ],
-  "matchday_key": "PL:2026-27:10",
   "merkle_leaves": [
     {
       "leaf_index": 0,
@@ -79,10 +53,11 @@
     }
   ],
   "merkle_root": "2e2951adb3e056cc4e6409022e3a6da7d189ca3f11b3f2e2ad768b411e0b965a",
-  "mode": "live",
+  "phase": "reveal",
   "predictions": [
     {
       "created_at": "2026-11-05T20:02:18Z",
+      "dispersion_json": "{\"method\": \"uniform\"}",
       "fixture_id": "pl-129016",
       "id": 961,
       "k_requested": 1,
@@ -99,6 +74,7 @@
     },
     {
       "created_at": "2026-11-05T20:02:18Z",
+      "dispersion_json": "{\"method\": \"home_advantage_prior\"}",
       "fixture_id": "pl-129016",
       "id": 962,
       "k_requested": 1,
@@ -115,6 +91,7 @@
     },
     {
       "created_at": "2026-11-05T20:02:18Z",
+      "dispersion_json": "{\"freeze\": \"2026-11-05T20:00:00Z\", \"home_advantage_elo\": 65.0, \"method\": \"clubelo\", \"ratings\": {}}",
       "fixture_id": "pl-129016",
       "id": 963,
       "k_requested": 1,
@@ -131,6 +108,7 @@
     },
     {
       "created_at": "2026-11-05T20:02:31Z",
+      "dispersion_json": "{\"data_cutoff\": \"2026-11-05T20:00:00Z\", \"fit_ref\": \"869c839e00e738c6f7bd9264e977a3b91e081ffbd40437a2b82f5e01d2209a02\", \"half_life_days\": 365.0, \"method\": \"dixonceoles\", \"model_version\": \"dc-v1\", \"n_matches\": 850, \"rho\": -0.08244408308796335}",
       "fixture_id": "pl-129016",
       "id": 964,
       "k_requested": 1,
@@ -147,6 +125,7 @@
     },
     {
       "created_at": "2026-11-05T20:07:22Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.052899999999999975, \"p_away_std\": 0.03648031432613121, \"p_draw_std\": 0.006368935023481808, \"p_home_std\": 0.0372636999415427}",
       "fixture_id": "pl-129016",
       "id": 970,
       "k_requested": 3,
@@ -163,6 +142,7 @@
     },
     {
       "created_at": "2026-11-05T20:04:23Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.033333333333333305, \"p_away_std\": 0.015275252316519465, \"p_draw_std\": 0.011547005383792509, \"p_home_std\": 0.026457513110645866}",
       "fixture_id": "pl-129016",
       "id": 969,
       "k_requested": 3,
@@ -179,6 +159,7 @@
     },
     {
       "created_at": "2026-11-05T20:03:33Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.03466666666666665, \"p_away_std\": 0.01858314648635514, \"p_draw_std\": 0.009018499505645797, \"p_home_std\": 0.027227437142216145}",
       "fixture_id": "pl-129016",
       "id": 966,
       "k_requested": 3,
@@ -195,6 +176,7 @@
     },
     {
       "created_at": "2026-11-05T20:03:07Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.029333333333333312, \"p_away_std\": 0.015502687938977976, \"p_draw_std\": 0.007767453465154036, \"p_home_std\": 0.023245071162148166}",
       "fixture_id": "pl-129016",
       "id": 965,
       "k_requested": 3,
@@ -211,6 +193,7 @@
     },
     {
       "created_at": "2026-11-05T20:03:52Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.03333333333333335, \"p_away_std\": 0.0264575131106459, \"p_draw_std\": 0.005773502691896262, \"p_home_std\": 0.023094010767585053}",
       "fixture_id": "pl-129016",
       "id": 967,
       "k_requested": 3,
@@ -227,6 +210,7 @@
     },
     {
       "created_at": "2026-11-05T20:04:02Z",
+      "dispersion_json": "{\"mean_pairwise_tv\": 0.011000000000000001, \"p_away_std\": 0.0060277137733417, \"p_draw_std\": 0.0036055512754639926, \"p_home_std\": 0.007571877794400371}",
       "fixture_id": "pl-129016",
       "id": 968,
       "k_requested": 3,
@@ -242,12 +226,5 @@
       "status": "ok"
     }
   ],
-  "run_id": "live-2026-27",
-  "scheme": {
-    "internal": "sha256(left_hex || right_hex) ascii bytes -> hex",
-    "leaf": "prediction_hash (sha256_hex of canonical prediction)",
-    "padding": "duplicate-last-when-odd-and-more-than-one",
-    "path_side": "R=sibling-right (parent=H(this||sib)); L=sibling-left"
-  },
-  "season": "2026-27"
+  "run_id": "live-2026-27"
 }
